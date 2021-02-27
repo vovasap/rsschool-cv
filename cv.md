@@ -1,6 +1,6 @@
 ##Vladimir Sapozhnikov
 
-###Contacts
+### Contacts
 
 [<img src="https://img.icons8.com/material-rounded/24/000000/telegram-app.png" alt="telegram"/> @vovasap1](https://t.me/vovasap1)
 
@@ -8,7 +8,7 @@
 
 [<img src="https://img.icons8.com/material-sharp/24/000000/email.png" alt="email"/> vovasap.pblc@gmail.com](vovasap.pblc@gmail.com)
 
-###About me
+### About me
 
 Programming for me is a way of self-expression, not a means of earning money. Like any good artist, I not only create, but also grow. Trying to be better every day. One of the strengths is the desire to find out "why it works like this".
 
@@ -26,11 +26,11 @@ Programming for me is a way of self-expression, not a means of earning money. Li
 ```html``` ```pug```
 
 
-#####Tools
+##### Tools
 
 ```vscode``` ```phpstorm``` ```photoshop``` ```figma```
 
-#####Other
+##### Other
 
 ```OOP``` ```SOLID```
 
