@@ -8,6 +8,9 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
   <title>CV - Vladimir Sapozhnikov</title>
   <style>
+    body {
+      margin: 0;
+    }
     .container {
       margin: 0 auto;
       max-width: 800px;
@@ -54,110 +57,161 @@
     .experience__link {
       color: #000;
     }
+    .footer {
+      padding: 10px 0;
+
+      color: #fff;
+      background-color: #000;
+    }
+    .footer__inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer__link {
+      color: #fff;
+    }
+    .footer__img {
+      padding: 3px 6px;
+
+      width: 50px;
+
+      background-color: #fff;
+      border-radius: 5px;
+    }
+    .hidden {
+      margin: 0;
+      font-size: 0;
+      visibility: hidden;
+    }
     </style>
 </head>
 <body>
-<div class="container">
-  <div class="header">
-    <div>
-      <h1>Vladimir Sapozhnikov</h1>
-      <h2>Contacts</h2>
-      <ul class="contacts__list">
-        <li class="contacts__item">
-          <img src="https://img.icons8.com/material-rounded/24/000000/telegram-app.png" alt="telegram">
-          <a class="contacts__link" href="https://t.me/vovasap1">@vovasap1</a>
+  <header>
+    <div class="container">
+      <div class="header">
+        <div>
+          <h1>Vladimir Sapozhnikov</h1>
+          <h2>Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <img src="https://img.icons8.com/material-rounded/24/000000/telegram-app.png" alt="telegram">
+              <a class="contacts__link" href="https://t.me/vovasap1" target="_blank">@vovasap1</a>
+            </li>
+            <li class="contacts__item">
+              <img src="https://img.icons8.com/ios-filled/24/000000/facebook-new.png" alt="facebook">
+              <a class="contacts__link" href="https://www.facebook.com/vovasap1/" target="_blank">vovasap1</a>
+            </li>
+            <li class="contacts__item">
+              <img src="https://img.icons8.com/material-sharp/24/000000/email.png" alt="email">
+              <a class="contacts__link" href="vovasap.pblc@gmail.com" target="_blank">vovasap.pblc@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+        <img class="avatar" src="https://i.pinimg.com/280x280_RS/7d/f2/ef/7df2ef9aea39be3a32a9ce289b132a10.jpg" alt="avatar">
+      </div>
+      </div>
+  </header>
+  <main>
+    <div class="container">
+      <h2>About me</h2>
+      <p>Programming for me is a way of self-expression, not a means of earning money. Like any good artist, I not only create, but also grow. Trying <mark>to be better every day</mark>. One of the strengths is the desire to find out "why it works like this".</p>
+      <h2>Technical skills</h2>
+      <h4 class="hidden">Languages</h4>
+      <ul class="skills__list">
+        <li class="skills__item">typescript</li>
+        <li class="skills__item">javascript</li>
+        <li class="skills__item">c#</li>
+      </ul>
+      <h4 class="hidden">Frameworks</h4>
+      <ul class="skills__list">
+        <li class="skills__item">vue.js</li>
+        <li class="skills__item">vuex</li>
+        <li class="skills__item">vue router</li>
+      </ul>
+      <h4 class="hidden">Additional</h4>
+      <ul class="skills__list">
+        <li class="skills__item">webpack</li>
+        <li class="skills__item">git</li>
+      </ul>
+      <h4 class="hidden">Styles</h4>
+      <ul class="skills__list">
+        <li class="skills__item">css</li>
+        <li class="skills__item">sass/scss</li>
+        <li class="skills__item">BEM</li>
+        <li class="skills__item">bootstrap/-vue</li>
+        <li class="skills__item">bulma</li>
+        <li class="skills__item">buefy</li>
+      </ul>
+      <h4 class="hidden">HTML</h4>
+      <ul class="skills__list">
+        <li class="skills__item">html</li>
+        <li class="skills__item">pug</li>
+      </ul>
+      <h4>Tools</h4>
+      <ul class="skills__list">
+        <li class="skills__item">vscode</li>
+        <li class="skills__item">vscode</li>
+        <li class="skills__item">photoshop</li>
+        <li class="skills__item">figma</li>
+      </ul>
+      <h4>Other</h4>
+      <ul class="skills__list">
+        <li class="skills__item">OOP</li>
+        <li class="skills__item">SOLID</li>
+      </ul>
+      <h2>Soft skills</h2>
+      <ul class="skills__list">
+        <li class="skills__item">communication</li>
+        <li class="skills__item">teamwork</li>
+        <li class="skills__item">critical thinking</li>
+        <li class="skills__item">positive attitude</li>
+      </ul>
+      <h2>Code example</h2>
+      <pre>
+      <code>
+      function convertYesAndNo(str) {
+        if (str.toLowerCase() === 'yes') {
+            return 'no'
+        } else if (str.toLowerCase() === 'no'){
+            return 'yes'
+        }
+        return 'Do we try it again?'
+      }
+  
+      alert(convertYesAndNo(prompt('This is "Yes2No converter".')))
+      </code>
+    </pre>
+      <h2>Work experience</h2>
+      <p>I involve in a startup.</p>
+      <p>Projects:</p>
+      <ul class="experience__list">
+        <li class="experience__item">
+          <a class="experience__link" href="https://github.com/vovasap/affirmation-app-practice" target="_blank">Affirmation app</a>
         </li>
-        <li class="contacts__item">
-          <img src="https://img.icons8.com/ios-filled/24/000000/facebook-new.png" alt="facebook">
-          <a class="contacts__link" href="https://www.facebook.com/vovasap1/">vovasap1</a>
-        </li>
-        <li class="contacts__item">
-          <img src="https://img.icons8.com/material-sharp/24/000000/email.png" alt="email">
-          <a class="contacts__link" href="vovasap.pblc@gmail.com">vovasap.pblc@gmail.com</a>
+        <li class="experience__item">
+          <a class="experience__link" href="https://vovasap.github.io/v ue-test-task-2/" target="_blank">Registration page (on Vue.js)</a>
         </li>
       </ul>
+      <h2>Education</h2>
+      <p>Course: HTML and CSS (HTML Academy)</p>
+      <h2>Other</h2>
+      <p>English (A1)</p>
     </div>
-    <img class="avatar" src="https://i.pinimg.com/280x280_RS/7d/f2/ef/7df2ef9aea39be3a32a9ce289b132a10.jpg" alt="avatar">
-  </div>
-  <h2>About me</h2>
-  <p>Programming for me is a way of self-expression, not a means of earning money. Like any good artist, I not only create, but also grow. Trying to be better every day. One of the strengths is the desire to find out "why it works like this".</p>
-  <h2>Technical skills</h2>
-  <ul class="skills__list">
-    <li class="skills__item">typescript</li>
-    <li class="skills__item">javascript</li>
-    <li class="skills__item">c#</li>
-  </ul>
-  <ul class="skills__list">
-    <li class="skills__item">vue.js</li>
-    <li class="skills__item">vuex</li>
-    <li class="skills__item">vue router</li>
-  </ul>
-  <ul class="skills__list">
-    <li class="skills__item">webpack</li>
-    <li class="skills__item">git</li>
-  </ul>
-  <ul class="skills__list">
-    <li class="skills__item">css</li>
-    <li class="skills__item">sass/scss</li>
-    <li class="skills__item">BEM</li>
-    <li class="skills__item">bootstrap/-vue</li>
-    <li class="skills__item">bulma</li>
-    <li class="skills__item">buefy</li>
-  </ul>
-  <ul class="skills__list">
-    <li class="skills__item">html</li>
-    <li class="skills__item">pug</li>
-  </ul>
-  <h4>Tools</h4>
-  <ul class="skills__list">
-    <li class="skills__item">vscode</li>
-    <li class="skills__item">vscode</li>
-    <li class="skills__item">photoshop</li>
-    <li class="skills__item">figma</li>
-  </ul>
-  <h4>Other</h4>
-  <ul class="skills__list">
-    <li class="skills__item">OOP</li>
-    <li class="skills__item">SOLID</li>
-  </ul>
-  <h2>Soft skills</h2>
-  <ul class="skills__list">
-    <li class="skills__item">communication</li>
-    <li class="skills__item">teamwork</li>
-    <li class="skills__item">critical thinking</li>
-    <li class="skills__item">positive attitude</li>
-  </ul>
-  <h2>Code example</h2>
-  <pre>
-    <code>
-    function convertYesAndNo(str) {
-      if (str.toLowerCase() === 'yes') {
-          return 'no'
-      } else if (str.toLowerCase() === 'no'){
-          return 'yes'
-      }
-      return 'Do we try it again?'
-    }
-
-    alert(convertYesAndNo(prompt('This is "Yes2No converter".')))
-    </code>
-  </pre>
-  <h2>Work experience</h2>
-  <p>I involve in a startup.</p>
-  <p>Projects:</p>
-  <ul class="experience__list">
-    <li class="experience__item">
-      <a class="experience__link" href="https://github.com/vovasap/affirmation-app-practice">Affirmation app</a>
-    </li>
-    <li class="experience__item">
-      <a class="experience__link" href="https://vovasap.github.io/v ue-test-task-2/">Registration page (on Vue.js)</a>
-    </li>
-  </ul>
-  <h2>Education</h2>
-  <p>Course: HTML and CSS (HTML Academy)</p>
-  <h2>Other</h2>
-  <p>English (A1)</p>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a class="footer__link" href="https://github.com/vovasap" target="_blank">
+          GitHub
+        </a>
+        <time>2021</time>
+        <a class="footer__link" href="https://rs.school/js/" target="_blank">
+          <img class="footer__img" src="https://rs.school/images/rs_school_js.svg" alt="rsschool-js">
+        </a>
+      </div>
+    </div>
+  </footer>
   <script>hljs.initHighlightingOnLoad();</script>
-</div>
 </body>
 </html>
